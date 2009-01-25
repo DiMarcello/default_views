@@ -1,0 +1,11 @@
+DefaultViews
+============
+
+When a template is not according to controller and namespace,
+DefaultViews tries to render it from the set default view-path.
+
+This makes your view alot more dry
+
+The default path is set to "default", as an constant in DefaultViews.
+
+Copyright (c) 2009 DiMarcello, released under the MIT license
