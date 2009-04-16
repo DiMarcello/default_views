@@ -1,0 +1,2 @@
+<div id="test">Default action</div>
+<%= render :partial => 'partial2' %>

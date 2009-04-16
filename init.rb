@@ -1,6 +1,6 @@
 # Include hook code here
 
-require 'default_views'
+require 'di_marcello/default_views'
 
-ActionController::Base.send :include, DefaultViews::ActionControllerMethods
-ActionView::Base.send :include, DefaultViews::ActionViewMethods
+ActionController::Base.send :include, DiMarcello::DefaultViews::ActionControllerMethods
+ActionView::Base.send :include, DiMarcello::DefaultViews::ActionViewMethods
